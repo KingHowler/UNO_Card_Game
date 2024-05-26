@@ -1,3 +1,5 @@
+# Dictionary
+<br><br>
 | Variable/Array/Type/Object/Function              | Meaning                                                                                                                                               |
 |--------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ```Card```                                       | A custom class, declares objects which have a Colour and Number, includes built-in translation to String for user Output                              |
