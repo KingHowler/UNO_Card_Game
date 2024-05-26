@@ -17,8 +17,12 @@
 - To input
   - The number of Players
   - The number of Cards each player should have
-- To shuffle the Cards for each Player
+- To shuffle the Cards for each Player based on input
 - To take 1 card from the remaining Draw pile and set it as the Discard pile
 - To play the game in a clockwise manner {P1 - P4} until changed by a Reverse card
 - To ensure the players can only put cards which match the top of the Discard pile by either Number or Colour
 - To allow the player to draw a card from the Draw pile
+- To complete appropriate processes for each action card
+- To reset the Draw pile using the Discard pile if it is empty
+- To declare "UNO!" if any of the players has only 1 card left
+- To declare a "Player 1 has gotten n<sup>th</sup> Position" after the player has no cards remaining
