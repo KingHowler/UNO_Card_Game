@@ -11,6 +11,25 @@
    - Uses a custom class ```Card```
      - All object with the class ```Card``` have integer values for ```Colour``` and a ```Number```
      - All objects with type Card have a built-in Ditcionary which describes the feature of the card when the functions ```printColour()``` and ```printNumber()``` are used
+3. Custom Class with Universal Arrays
+   - Uses a custom class ```Card```
+     - All object with the class ```Card``` have integer values for ```Colour``` and a ```Number```
+     - All objects with type Card have a built-in Ditcionary which describes the feature of the card when the functions ```printColour()``` and ```printNumber()``` are used
+   - Uses a Universal Array instead of multiple different arrays
+     - All cards are in a single Array called ```Piles[]```
+     - ```Piles[]``` is seperated into six regions of 108 in the following order
+       - Draw Pile
+         - Red Cards
+         - Blue Cards
+         - Green Cards
+         - Yellow Cards
+         - Colourless Cards
+       - Player 1
+       - Player 2
+       - Player 3
+       - Player 4
+       - Discard Pile
+     - A function ```Offset()``` is used to obtain data using an index between 0 and 107 instead of 0 and 647. This makes it easier to perform card manipulation procedures
 
 ## Target Description
 - To initaialize the cards
