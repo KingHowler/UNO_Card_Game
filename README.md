@@ -53,3 +53,22 @@
 - To reset the Draw pile using the Discard pile if it is empty
 - To declare "UNO!" if any of the players has only 1 card left
 - To declare a "Player 1 has gotten n<sup>th</sup> Position" after the player has no cards remaining
+
+## Game Description
+### Purpose
+- This is the logic unit for a multiplayer UNO card game
+- The code is built in such a way to allow it to be integrated to a GUI with only slight modifications
+### Input Stream
+- The Game uses only integers for inputs
+- The first two inputs are pre-game inputs selecting the number of players who will be playing and the number of cards each player will start with
+- Once the game starts it will take indexes as inputs
+  - Each player can play a card in their deck by inputting the index of the card they want to play which can only be from 0-107
+  - They can input -1 to draw a card
+  - They can input -2 to indicate theyhave completed their turn
+- Each player must have placed atleast one card or drawn 1 card before they can pass their turn
+- **Valid Inputs during pre-game** : Players => 1-4 , Cards => 1-21
+- **Valid Inputs during game** : Index => -2 - 107
+### Output Stream
+- The game will generate properly described prompts whecn asking for each input
+- The game will output each player's hands and the discard pile every time a player passes a turn
+- The game will output a leaderboard when only 1 player is left
