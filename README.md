@@ -34,10 +34,6 @@
        - Player 4
        - Discard Pile
      - A function ```Offset()``` is used to obtain data using an index between 0 and 107 instead of 0 and 647. This makes it easier to perform card manipulation procedures
-     - Former variation
-       - Reformatted parameters and saved as UNO
-4. UNO
-   - The Final and completed CLI-based UNO Card Game
 
 ## Target Description
 - To initaialize the cards
@@ -50,9 +46,10 @@
 - To ensure the players can only put cards which match the top of the Discard pile by either Number or Colour
 - To allow the player to draw a card from the Draw pile
 - To complete appropriate processes for each action card
-- To reset the Draw pile using the Discard pile if it is empty
-- To declare "UNO!" if any of the players has only 1 card left
 - To declare a "Player 1 has gotten n<sup>th</sup> Position" after the player has no cards remaining
+<!-- - To reset the Draw pile using the Discard pile if it is empty
+- To declare "UNO!" if any of the players has only 1 card left
+- To declare a "Player 1 has gotten n<sup>th</sup> Position" after the player has no cards remaining -->
 
 ## Game Description
 ### Purpose
