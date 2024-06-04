@@ -72,3 +72,13 @@
 - The game will generate properly described prompts whecn asking for each input
 - The game will output each player's hands and the discard pile every time a player passes a turn
 - The game will output a leaderboard when only 1 player is left
+### Structure - master.cpp
+![image not available](https://github.com/KingHowler/UNO_Card_Game/assets/68814294/e507c5ec-e446-496e-a2ce-64ec4051c871)
+
+
+### Structure - buildUNO.cpp
+![image not available](https://github.com/KingHowler/UNO_Card_Game/assets/68814294/35d525ec-c6bd-4a27-b1df-63f27037ae57)
+
+
+### Structure - FDE.cpp
+![image not available](https://github.com/KingHowler/UNO_Card_Game/assets/68814294/547581b9-1784-4fa7-af45-b70086d35ce2)
