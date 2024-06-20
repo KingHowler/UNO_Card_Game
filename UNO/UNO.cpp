@@ -403,22 +403,6 @@ public:
     void StartGame()
     {
         std::srand(static_cast<unsigned int>(std::time(nullptr)));
-        do
-        {
-            std::cout << "Enter Number of Players 1-4                    :  ";
-            std::cin >> startingPlayers;
-            std::cout << '\n'
-                      << "Enter Number of Cards Each Player should have  :  ";
-            std::cin >> startingCardsEach;
-            std::cout << '\n'
-                      << '\n';
-            if (((108 - (startingPlayers * startingCardsEach)) < 21) || startingPlayers > 4)
-            {
-                std::cout << "The number of cards remaining must be atleast 21, please try again" << '\n'
-                          << '\n'
-                          << '\n';
-            }
-        } while (((108 - (startingPlayers * startingCardsEach)) < 21) || startingPlayers > 4);
         for (int i = 1; i < startingPlayers + 1; i++)
         {
             stillPlaying[i] = 1;
