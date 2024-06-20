@@ -6,6 +6,22 @@ int main()
     while (playAgain == 'y')
     {
         game.ResetVariables();
+        do
+        {
+            std::cout << "Enter Number of Players 1-4                    :  ";
+            std::cin >> game.startingPlayers;
+            std::cout << '\n'
+                      << "Enter Number of Cards Each Player should have  :  ";
+            std::cin >> game.startingCardsEach;
+            std::cout << '\n'
+                      << '\n';
+            if (((108 - (game.startingPlayers * game.startingCardsEach)) < 21) || game.startingPlayers > 4)
+            {
+                std::cout << "The number of cards remaining must be atleast 21, please try again" << '\n'
+                          << '\n'
+                          << '\n';
+            }
+        } while (((108 - (game.startingPlayers * game.startingCardsEach)) < 21) || game.startingPlayers > 4);
         game.StartGame();
         game.currentPlayer = 1;
         game.orderOfTurns = 1;
